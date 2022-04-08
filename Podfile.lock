@@ -1,0 +1,16 @@
+PODS:
+  - MXLCalendarManagerSwift (1.0.7)
+
+DEPENDENCIES:
+  - MXLCalendarManagerSwift
+
+SPEC REPOS:
+  trunk:
+    - MXLCalendarManagerSwift
+
+SPEC CHECKSUMS:
+  MXLCalendarManagerSwift: b4821839d16f0e772d60ac5bd6aa78b6efb25b1b
+
+PODFILE CHECKSUM: 4d8cfd6c675c6792b936eb164277a34bee1aaab8
+
+COCOAPODS: 1.11.3

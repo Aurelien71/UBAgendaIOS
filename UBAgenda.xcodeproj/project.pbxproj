@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D6B4D0B27F438DA0079FFD3 /* ADESemaineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6B4D0A27F438DA0079FFD3 /* ADESemaineView.swift */; };
+		0D6B4D0F27F43A8E0079FFD3 /* CustomCalendarExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6B4D0E27F43A8E0079FFD3 /* CustomCalendarExampleController.swift */; };
+		0D6B4D1E27F5A3C4006187AD /* SQLiteBDD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6B4D1D27F5A3C4006187AD /* SQLiteBDD.swift */; };
+		0D6BFC5327EB73A70003F278 /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0D6BFC5227EB73A70003F278 /* CalendarKit */; };
+		0D6E9F0A27F6F26600C8559F /* RecupICal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E9F0927F6F26600C8559F /* RecupICal.swift */; };
+		0D7010F527E32DEF0076DCDA /* UBAgendaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7010F427E32DEF0076DCDA /* UBAgendaApp.swift */; };
+		0D7010F727E32DEF0076DCDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7010F627E32DEF0076DCDA /* ContentView.swift */; };
+		0D7010F927E32DF10076DCDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7010F827E32DF10076DCDA /* Assets.xcassets */; };
+		0D7010FC27E32DF10076DCDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7010FB27E32DF10076DCDA /* Preview Assets.xcassets */; };
+		0D72D34727F2E8DD00D2B958 /* Cours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D72D34627F2E8DD00D2B958 /* Cours.swift */; };
+		0D72D34C27F2F9DE00D2B958 /* MXLCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D72D34B27F2F9DE00D2B958 /* MXLCalendarManager.swift */; };
+		0D72D34E27F2F9EE00D2B958 /* MXLCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D72D34D27F2F9EE00D2B958 /* MXLCalendar.swift */; };
+		0D72D35027F2F9F600D2B958 /* MXLCalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D72D34F27F2F9F600D2B958 /* MXLCalendarEvent.swift */; };
+		0D72D35227F2FA0E00D2B958 /* MXLCalendarAttendee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D72D35127F2FA0E00D2B958 /* MXLCalendarAttendee.swift */; };
+		0D72D35427F2FA1500D2B958 /* TimeZone+ProperAbbreviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D72D35327F2FA1500D2B958 /* TimeZone+ProperAbbreviation.swift */; };
+		0D7ECBCA27F5E85800F05C58 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 0D7ECBC927F5E85800F05C58 /* SQLite */; };
+		0D7ECBCC27F5EAAF00F05C58 /* SQLiteCommande.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7ECBCB27F5EAAF00F05C58 /* SQLiteCommande.swift */; };
+		0D7ECBCF27F5ECDB00F05C58 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 0D7ECBCE27F5ECDB00F05C58 /* CodeScanner */; };
+		16469CDF74B896795A4EA499 /* Pods_UBAgenda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D466C065467533C8D0796475 /* Pods_UBAgenda.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D6B4D0A27F438DA0079FFD3 /* ADESemaineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADESemaineView.swift; sourceTree = "<group>"; };
+		0D6B4D0E27F43A8E0079FFD3 /* CustomCalendarExampleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalendarExampleController.swift; sourceTree = "<group>"; };
+		0D6B4D1B27F58B50006187AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0D6B4D1D27F5A3C4006187AD /* SQLiteBDD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteBDD.swift; sourceTree = "<group>"; };
+		0D6E9F0927F6F26600C8559F /* RecupICal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecupICal.swift; sourceTree = "<group>"; };
+		0D7010F427E32DEF0076DCDA /* UBAgendaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBAgendaApp.swift; sourceTree = "<group>"; };
+		0D7010F627E32DEF0076DCDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D7010F827E32DF10076DCDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D7010FB27E32DF10076DCDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D72D34627F2E8DD00D2B958 /* Cours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cours.swift; sourceTree = "<group>"; };
+		0D72D34B27F2F9DE00D2B958 /* MXLCalendarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MXLCalendarManager.swift; path = Pods/MXLCalendarManagerSwift/MXLCalendarManagerSwift/MXLCalendarManager.swift; sourceTree = SOURCE_ROOT; };
+		0D72D34D27F2F9EE00D2B958 /* MXLCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MXLCalendar.swift; path = Pods/MXLCalendarManagerSwift/MXLCalendarManagerSwift/MXLCalendar.swift; sourceTree = SOURCE_ROOT; };
+		0D72D34F27F2F9F600D2B958 /* MXLCalendarEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MXLCalendarEvent.swift; path = Pods/MXLCalendarManagerSwift/MXLCalendarManagerSwift/MXLCalendarEvent.swift; sourceTree = SOURCE_ROOT; };
+		0D72D35127F2FA0E00D2B958 /* MXLCalendarAttendee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MXLCalendarAttendee.swift; path = Pods/MXLCalendarManagerSwift/MXLCalendarManagerSwift/MXLCalendarAttendee.swift; sourceTree = SOURCE_ROOT; };
+		0D72D35327F2FA1500D2B958 /* TimeZone+ProperAbbreviation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TimeZone+ProperAbbreviation.swift"; path = "Pods/MXLCalendarManagerSwift/MXLCalendarManagerSwift/TimeZone+ProperAbbreviation.swift"; sourceTree = SOURCE_ROOT; };
+		0D7ECBCB27F5EAAF00F05C58 /* SQLiteCommande.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteCommande.swift; sourceTree = "<group>"; };
+		0DC4E0EB27EDBC5600D447A0 /* UBAgenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UBAgenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9412A4007F4F32F1267991ED /* Pods-UBAgenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBAgenda.release.xcconfig"; path = "Target Support Files/Pods-UBAgenda/Pods-UBAgenda.release.xcconfig"; sourceTree = "<group>"; };
+		98EECB4E52910FD8B61BD5ED /* Pods-UBAgenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBAgenda.debug.xcconfig"; path = "Target Support Files/Pods-UBAgenda/Pods-UBAgenda.debug.xcconfig"; sourceTree = "<group>"; };
+		D466C065467533C8D0796475 /* Pods_UBAgenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBAgenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D7010EE27E32DEF0076DCDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7ECBCF27F5ECDB00F05C58 /* CodeScanner in Frameworks */,
+				0D7ECBCA27F5E85800F05C58 /* SQLite in Frameworks */,
+				0D6BFC5327EB73A70003F278 /* CalendarKit in Frameworks */,
+				16469CDF74B896795A4EA499 /* Pods_UBAgenda.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D6B4D1C27F5A3A5006187AD /* bdd */ = {
+			isa = PBXGroup;
+			children = (
+				0D6B4D1D27F5A3C4006187AD /* SQLiteBDD.swift */,
+				0D7ECBCB27F5EAAF00F05C58 /* SQLiteCommande.swift */,
+			);
+			path = bdd;
+			sourceTree = "<group>";
+		};
+		0D7010E827E32DEF0076DCDA = {
+			isa = PBXGroup;
+			children = (
+				0D7010F327E32DEF0076DCDA /* UBAgenda */,
+				0DC4E0EB27EDBC5600D447A0 /* UBAgenda.app */,
+				0DC4E10F27EDC54C00D447A0 /* Frameworks */,
+				19C3F5306857125D2046E01D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0D7010F327E32DEF0076DCDA /* UBAgenda */ = {
+			isa = PBXGroup;
+			children = (
+				0D6B4D1B27F58B50006187AD /* Info.plist */,
+				0D6B4D1C27F5A3A5006187AD /* bdd */,
+				0D72D34A27F2F9D200D2B958 /* Util */,
+				0D72D34527F2E8C500D2B958 /* Metiers */,
+				0D7010F427E32DEF0076DCDA /* UBAgendaApp.swift */,
+				0D7010F627E32DEF0076DCDA /* ContentView.swift */,
+				0D6B4D0A27F438DA0079FFD3 /* ADESemaineView.swift */,
+				0D6B4D0E27F43A8E0079FFD3 /* CustomCalendarExampleController.swift */,
+				0D7010F827E32DF10076DCDA /* Assets.xcassets */,
+				0D7010FA27E32DF10076DCDA /* Preview Content */,
+			);
+			path = UBAgenda;
+			sourceTree = "<group>";
+		};
+		0D7010FA27E32DF10076DCDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0D7010FB27E32DF10076DCDA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0D72D34527F2E8C500D2B958 /* Metiers */ = {
+			isa = PBXGroup;
+			children = (
+				0D72D34627F2E8DD00D2B958 /* Cours.swift */,
+			);
+			path = Metiers;
+			sourceTree = "<group>";
+		};
+		0D72D34A27F2F9D200D2B958 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0D72D34D27F2F9EE00D2B958 /* MXLCalendar.swift */,
+				0D72D34F27F2F9F600D2B958 /* MXLCalendarEvent.swift */,
+				0D72D35127F2FA0E00D2B958 /* MXLCalendarAttendee.swift */,
+				0D72D35327F2FA1500D2B958 /* TimeZone+ProperAbbreviation.swift */,
+				0D72D34B27F2F9DE00D2B958 /* MXLCalendarManager.swift */,
+				0D6E9F0927F6F26600C8559F /* RecupICal.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0DC4E10F27EDC54C00D447A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D466C065467533C8D0796475 /* Pods_UBAgenda.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19C3F5306857125D2046E01D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98EECB4E52910FD8B61BD5ED /* Pods-UBAgenda.debug.xcconfig */,
+				9412A4007F4F32F1267991ED /* Pods-UBAgenda.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D7010F027E32DEF0076DCDA /* UBAgenda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7010FF27E32DF10076DCDA /* Build configuration list for PBXNativeTarget "UBAgenda" */;
+			buildPhases = (
+				C39E4095951D13A135051F40 /* [CP] Check Pods Manifest.lock */,
+				0D7010ED27E32DEF0076DCDA /* Sources */,
+				0D7010EE27E32DEF0076DCDA /* Frameworks */,
+				0D7010EF27E32DEF0076DCDA /* Resources */,
+				89C0BA4325996DEB29D088E5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UBAgenda;
+			packageProductDependencies = (
+				0D6BFC5227EB73A70003F278 /* CalendarKit */,
+				0D7ECBC927F5E85800F05C58 /* SQLite */,
+				0D7ECBCE27F5ECDB00F05C58 /* CodeScanner */,
+			);
+			productName = UBAgenda;
+			productReference = 0DC4E0EB27EDBC5600D447A0 /* UBAgenda.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D7010E927E32DEF0076DCDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0D7010F027E32DEF0076DCDA = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 0D7010EC27E32DEF0076DCDA /* Build configuration list for PBXProject "UBAgenda" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D7010E827E32DEF0076DCDA;
+			packageReferences = (
+				0D6BFC5127EB73A70003F278 /* XCRemoteSwiftPackageReference "CalendarKit" */,
+				0D7ECBC827F5E85800F05C58 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+				0D7ECBCD27F5ECDB00F05C58 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = 0D7010E827E32DEF0076DCDA;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D7010F027E32DEF0076DCDA /* UBAgenda */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D7010EF27E32DEF0076DCDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7010FC27E32DF10076DCDA /* Preview Assets.xcassets in Resources */,
+				0D7010F927E32DF10076DCDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89C0BA4325996DEB29D088E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UBAgenda/Pods-UBAgenda-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UBAgenda/Pods-UBAgenda-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UBAgenda/Pods-UBAgenda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C39E4095951D13A135051F40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UBAgenda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D7010ED27E32DEF0076DCDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D72D35427F2FA1500D2B958 /* TimeZone+ProperAbbreviation.swift in Sources */,
+				0D7010F727E32DEF0076DCDA /* ContentView.swift in Sources */,
+				0D6B4D0B27F438DA0079FFD3 /* ADESemaineView.swift in Sources */,
+				0D6B4D0F27F43A8E0079FFD3 /* CustomCalendarExampleController.swift in Sources */,
+				0D7ECBCC27F5EAAF00F05C58 /* SQLiteCommande.swift in Sources */,
+				0D6E9F0A27F6F26600C8559F /* RecupICal.swift in Sources */,
+				0D72D35227F2FA0E00D2B958 /* MXLCalendarAttendee.swift in Sources */,
+				0D72D34E27F2F9EE00D2B958 /* MXLCalendar.swift in Sources */,
+				0D72D35027F2F9F600D2B958 /* MXLCalendarEvent.swift in Sources */,
+				0D72D34C27F2F9DE00D2B958 /* MXLCalendarManager.swift in Sources */,
+				0D7010F527E32DEF0076DCDA /* UBAgendaApp.swift in Sources */,
+				0D6B4D1E27F5A3C4006187AD /* SQLiteBDD.swift in Sources */,
+				0D72D34727F2E8DD00D2B958 /* Cours.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D7010FD27E32DF10076DCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D7010FE27E32DF10076DCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D70110027E32DF10076DCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98EECB4E52910FD8B61BD5ED /* Pods-UBAgenda.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UBAgenda/Preview Content\"";
+				DEVELOPMENT_TEAM = CLJ2A82D65;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UBAgenda/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "L'application à besoin d'acceder au calendrier";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Nous avons besoin de la caméra pour scanner";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UB.UBAgenda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D70110127E32DF10076DCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9412A4007F4F32F1267991ED /* Pods-UBAgenda.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UBAgenda/Preview Content\"";
+				DEVELOPMENT_TEAM = CLJ2A82D65;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UBAgenda/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "L'application à besoin d'acceder au calendrier";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Nous avons besoin de la caméra pour scanner";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UB.UBAgenda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D7010EC27E32DEF0076DCDA /* Build configuration list for PBXProject "UBAgenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7010FD27E32DF10076DCDA /* Debug */,
+				0D7010FE27E32DF10076DCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D7010FF27E32DF10076DCDA /* Build configuration list for PBXNativeTarget "UBAgenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D70110027E32DF10076DCDA /* Debug */,
+				0D70110127E32DF10076DCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0D6BFC5127EB73A70003F278 /* XCRemoteSwiftPackageReference "CalendarKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/richardtop/CalendarKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		0D7ECBC827F5E85800F05C58 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		0D7ECBCD27F5ECDB00F05C58 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0D6BFC5227EB73A70003F278 /* CalendarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D6BFC5127EB73A70003F278 /* XCRemoteSwiftPackageReference "CalendarKit" */;
+			productName = CalendarKit;
+		};
+		0D7ECBC927F5E85800F05C58 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D7ECBC827F5E85800F05C58 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+		0D7ECBCE27F5ECDB00F05C58 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D7ECBCD27F5ECDB00F05C58 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0D7010E927E32DEF0076DCDA /* Project object */;
+}
